@@ -22,15 +22,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: node tarifas.js
-    - name: switching from HTTPS to SSH
-      run: git remote set-url origin ${{ secrets.ssh }}
-    - name: check for changes
-      run: git status
-    - name: stage changed files
-      run: git add .
-    - name: commit changed files
-      run: git commit -m "Actualizando tarifas"
-    - name: fetch from master
-      run: git fetch origin master
-    - name: push code to master
-      run: git push origin HEAD:main
+    - run: |
+       git config --global user.name "Gunsha"
+       git config --global user.email "gonzaller@gmail.com" 
+       git add .
+       git commit -m "Actualizando tarifas"
+       git push
