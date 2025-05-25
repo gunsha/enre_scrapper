@@ -1,0 +1,14 @@
+{
+  "name": "scrapper_enre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tarifas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  }
+}

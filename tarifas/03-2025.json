@@ -1,0 +1,1639 @@
+{
+  "t1r1": {
+    "nombre": "T1R1",
+    "categorias": [
+      {
+        "categoria": "R1",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 1037.84,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 99.73,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.50923870967742,
+            "piso": 120.6733
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 1027.56,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 99.755,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.107987096774195,
+            "piso": 120.70354999999999
+          }
+        }
+      },
+      {
+        "categoria": "R2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 2213.55,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 100.127,
+            "unidad": "$/kWh",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 86.39985483870967,
+            "piso": 121.15366999999999
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 2156.88,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 100.106,
+            "unidad": "$/kWh",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 84.18789677419355,
+            "piso": 121.12825999999998
+          }
+        }
+      },
+      {
+        "categoria": "R3",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 7632.26,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 107.474,
+            "unidad": "$/kWh",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 297.9043419354839,
+            "piso": 130.04354
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 7413.18,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 107.557,
+            "unidad": "$/kWh",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 289.3531548387097,
+            "piso": 130.14397
+          }
+        }
+      },
+      {
+        "categoria": "R4",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 12209.89,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 109.864,
+            "unidad": "$/kWh",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 476.57957741935485,
+            "piso": 132.93544
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 12088.99,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 110.075,
+            "unidad": "$/kWh",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 471.8605774193548,
+            "piso": 133.19075
+          }
+        }
+      },
+      {
+        "categoria": "R5",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 32168.73,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 115.155,
+            "unidad": "$/kWh",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1255.618170967742,
+            "piso": 139.33755
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 32673.14,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 124.782,
+            "unidad": "$/kWh",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1275.3064322580644,
+            "piso": 150.98622
+          }
+        }
+      },
+      {
+        "categoria": "R6",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 37936.84,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 117.981,
+            "unidad": "$/kWh",
+            "rango": [
+              "700"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1480.760529032258,
+            "piso": 142.75700999999998
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 37502.49,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 125.971,
+            "unidad": "$/kWh",
+            "rango": [
+              "700"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1463.8068677419353,
+            "piso": 152.42491
+          }
+        }
+      }
+    ]
+  },
+  "t1r2": {
+    "nombre": "T1R2",
+    "categorias": [
+      {
+        "categoria": "R1",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 1037.84,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 39.839,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.50923870967742,
+            "piso": 48.205189999999995
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 1027.56,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 39.978,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.107987096774195,
+            "piso": 48.37338
+          }
+        }
+      },
+      {
+        "categoria": "R2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 2213.55,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 40.236,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 100.127,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 86.39985483870967,
+            "piso": 48.685559999999995,
+            "excedente": 121.15366999999999
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 2156.88,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 40.329,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 100.106,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 84.18789677419355,
+            "piso": 48.79809,
+            "excedente": 121.12825999999998
+          }
+        }
+      },
+      {
+        "categoria": "R3",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 7632.26,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 47.583,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 107.474,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 297.9043419354839,
+            "piso": 57.57543,
+            "excedente": 130.04354
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 7413.18,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 47.779,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 107.557,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 289.3531548387097,
+            "piso": 57.81259,
+            "excedente": 130.14397
+          }
+        }
+      },
+      {
+        "categoria": "R4",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 12209.89,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 49.973,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 109.864,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 476.57957741935485,
+            "piso": 60.46733,
+            "excedente": 132.93544
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 12088.99,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 50.298,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 110.075,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 471.8605774193548,
+            "piso": 60.86058,
+            "excedente": 133.19075
+          }
+        }
+      },
+      {
+        "categoria": "R5",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 32168.73,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 55.264,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 115.155,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1255.618170967742,
+            "piso": 66.86944,
+            "excedente": 139.33755
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 32673.14,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 65.005,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 124.782,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1275.3064322580644,
+            "piso": 78.65605,
+            "excedente": 150.98622
+          }
+        }
+      },
+      {
+        "categoria": "R6",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 37936.84,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 58.09,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 117.981,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1480.760529032258,
+            "piso": 70.2889,
+            "excedente": 142.75700999999998
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 37502.49,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 350,
+              "valor": 66.194,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 125.971,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1463.8068677419353,
+            "piso": 80.09474,
+            "excedente": 152.42491
+          }
+        }
+      }
+    ]
+  },
+  "t1r3": {
+    "nombre": "T1R3",
+    "categorias": [
+      {
+        "categoria": "R1",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 1037.84,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 53.231,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.50923870967742,
+            "piso": 64.40951
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 1027.56,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 53.344,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "150"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 40.107987096774195,
+            "piso": 64.54624
+          }
+        }
+      },
+      {
+        "categoria": "R2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 2213.55,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 53.628,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 100.127,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 86.39985483870967,
+            "piso": 64.88988,
+            "excedente": 121.15366999999999
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 2156.88,
+            "unidad": "$/mes",
+            "rango": [
+              "151",
+              "400"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 53.695,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 100.106,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 84.18789677419355,
+            "piso": 64.97095,
+            "excedente": 121.12825999999998
+          }
+        }
+      },
+      {
+        "categoria": "R3",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 7632.26,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 60.975,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 107.474,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 297.9043419354839,
+            "piso": 73.77974999999999,
+            "excedente": 130.04354
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 7413.18,
+            "unidad": "$/mes",
+            "rango": [
+              "401",
+              "500"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 61.146,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 107.557,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 289.3531548387097,
+            "piso": 73.98666,
+            "excedente": 130.14397
+          }
+        }
+      },
+      {
+        "categoria": "R4",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 12209.89,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 63.365,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 109.864,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 476.57957741935485,
+            "piso": 76.67165,
+            "excedente": 132.93544
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 12088.99,
+            "unidad": "$/mes",
+            "rango": [
+              "501",
+              "600"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 63.664,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 110.075,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 471.8605774193548,
+            "piso": 77.03344,
+            "excedente": 133.19075
+          }
+        }
+      },
+      {
+        "categoria": "R5",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 32168.73,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 68.656,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 115.15,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1255.618170967742,
+            "piso": 83.07376000000001,
+            "excedente": 139.3315
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 32673.14,
+            "unidad": "$/mes",
+            "rango": [
+              "601",
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 78.37,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 124.782,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1275.3064322580644,
+            "piso": 94.82770000000001,
+            "excedente": 150.98622
+          }
+        }
+      },
+      {
+        "categoria": "R6",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 37936.84,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 71.482,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 117.981,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1480.760529032258,
+            "piso": 86.49322,
+            "excedente": 142.75700999999998
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 37502.49,
+            "unidad": "$/mes",
+            "rango": [
+              "700"
+            ]
+          },
+          "cargo_variable": {
+            "piso": {
+              "limite": 250,
+              "valor": 79.56,
+              "unidad": "$/kWh"
+            },
+            "excedente": {
+              "valor": 125.971,
+              "unidad": "$/kWh"
+            }
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1463.8068677419353,
+            "piso": 96.2676,
+            "excedente": 152.42491
+          }
+        }
+      }
+    ]
+  },
+  "usuarios_generales": {
+    "nombre": "Usuarios Generales",
+    "categorias": [
+      {
+        "categoria": "Tarifa 1 -G1",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 11980.24,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "800"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 145.159,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "800"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 467.61581935483866,
+            "piso": 175.64238999999998
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 11925.81,
+            "unidad": "$/mes",
+            "rango": [
+              "0",
+              "800"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 143.066,
+            "unidad": "$/kWh",
+            "rango": [
+              "0",
+              "800"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 465.4912935483871,
+            "piso": 173.10986
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 1 -G2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 11980.24,
+            "unidad": "$/mes",
+            "rango": [
+              "801",
+              "2000"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 160.932,
+            "unidad": "$/kWh",
+            "rango": [
+              "801",
+              "2000"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 467.61581935483866,
+            "piso": 194.72771999999998
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 11925.81,
+            "unidad": "$/mes",
+            "rango": [
+              "801",
+              "2000"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 157.969,
+            "unidad": "$/kWh",
+            "rango": [
+              "801",
+              "2000"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 465.4912935483871,
+            "piso": 191.14248999999998
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 1 -G3",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 11980.24,
+            "unidad": "$/mes",
+            "rango": [
+              "2000"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 162.65,
+            "unidad": "$/kWh",
+            "rango": [
+              "2000"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 467.61581935483866,
+            "piso": 196.8065
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 12327.7,
+            "unidad": "$/mes",
+            "rango": [
+              "2000"
+            ]
+          },
+          "cargo_variable": {
+            "valor": 162.226,
+            "unidad": "$/kWh",
+            "rango": [
+              "2000"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 481.1779677419355,
+            "piso": 196.29345999999998
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 1 -AP",
+        "edenor": {
+          "cargo_variable": {
+            "valor": 148.595,
+            "unidad": "$/kWh"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0,
+            "piso": 179.79995
+          }
+        },
+        "edesur": {
+          "cargo_variable": {
+            "valor": 132.118,
+            "unidad": "$/kWh"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0,
+            "piso": 159.86278
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 29387.88,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 13771.93,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 4431.01,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 74.413,
+            "unidad": "$/kW"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1147.0753161290322,
+            "piso": 90.03972999999999
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 31734.41,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 11501.46,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 3828.98,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 74.378,
+            "unidad": "$/kW"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1238.6656806451613,
+            "piso": 89.99737999999999
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - BT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 12274.54,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 5156.75,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 73.167,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 88.53207
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 8684.49,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 4242.86,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 73.167,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 88.53207
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - MT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 5804.18,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 5946.26,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 69.534,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 84.13614000000001
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 3752.61,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 5270.36,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 69.534,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 84.13614000000001
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - AT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 1523.63,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 5564.77,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 66.68,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 80.6828
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 985.78,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 5170.33,
+            "unidad": "$/kW-mes"
+          },
+          "cargo_variable": {
+            "valor": 66.68,
+            "unidad": "$/kWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 80.6828
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 2",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 29387.88,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 13771,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 554361,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 8444,
+            "unidad": "$/MWh"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1147.0753161290322,
+            "piso": 10217.24
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 31734.41,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 11501,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 479041,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 8440,
+            "unidad": "$/MWh"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 1238.6656806451613,
+            "piso": 10212.4
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - BT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 12274,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 645158,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 8302.59,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 10046.1339
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 8684,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 530822,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 8302.59,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 10046.1339
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - MT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 5804,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 435361,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 4670.21,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 5650.9541
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 3752,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 385874,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 4670.21,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 5650.9541
+          }
+        }
+      },
+      {
+        "categoria": "Tarifa 3 - AT",
+        "edenor": {
+          "cargo_fijo": {
+            "valor": 116426.06,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 1523,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 162081,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 1816.19,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4544.372019354839,
+            "piso": 2197.5899
+          }
+        },
+        "edesur": {
+          "cargo_fijo": {
+            "valor": 125678.71,
+            "unidad": "$/mes"
+          },
+          "cargo_por_potencia_contratada": {
+            "valor": 985776,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_por_potencia_adquirida": {
+            "valor": 150592,
+            "unidad": "$/MW-mes"
+          },
+          "cargo_variable": {
+            "valor": 1816.19,
+            "unidad": "$/MWh",
+            "rango": [
+              "valle"
+            ]
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 4905.523841935484,
+            "piso": 2197.5899
+          }
+        }
+      },
+      {
+        "categoria": "",
+        "edenor": {
+          "tarifa_1_r1": {
+            "valor": 3160.92,
+            "unidad": "$"
+          },
+          "tarifa_1_g_y_ap": {
+            "valor": 19118.05,
+            "unidad": "$"
+          },
+          "tarifa_2_y_tarifa_3": {
+            "valor": 50557.91,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        },
+        "edesur": {
+          "tarifa_1_r1": {
+            "valor": 3160.92,
+            "unidad": "$"
+          },
+          "tarifa_1_g_y_ap": {
+            "valor": 19118.05,
+            "unidad": "$"
+          },
+          "tarifa_2_y_tarifa_3": {
+            "valor": 50557.91,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        }
+      },
+      {
+        "categoria": "Comunes",
+        "edenor": {
+          "a_reas_monof_sicas": {
+            "valor": 38490.84,
+            "unidad": "$"
+          },
+          "subterr_neas": {
+            "valor": 119556.58,
+            "unidad": "$"
+          },
+          "a_reas_trif_sicas": {
+            "valor": 72838.37,
+            "unidad": "$"
+          },
+          "subterr_neas_trif_sicas": {
+            "valor": 182780.38,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        },
+        "edesur": {
+          "a_reas_monof_sicas": {
+            "valor": 38490.84,
+            "unidad": "$"
+          },
+          "subterr_neas": {
+            "valor": 119556.58,
+            "unidad": "$"
+          },
+          "a_reas_trif_sicas": {
+            "valor": 72838.37,
+            "unidad": "$"
+          },
+          "subterr_neas_trif_sicas": {
+            "valor": 182780.38,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        }
+      },
+      {
+        "categoria": "Especiales",
+        "edenor": {
+          "a_reas_monof_sicas": {
+            "valor": 101016.11,
+            "unidad": "$"
+          },
+          "subterr_neas": {
+            "valor": 325009.37,
+            "unidad": "$"
+          },
+          "a_reas_trif_sicas": {
+            "valor": 177979.51,
+            "unidad": "$"
+          },
+          "subterr_neas_trif_sicas": {
+            "valor": 336006.69,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        },
+        "edesur": {
+          "a_reas_monof_sicas": {
+            "valor": 101016.11,
+            "unidad": "$"
+          },
+          "subterr_neas": {
+            "valor": 325009.37,
+            "unidad": "$"
+          },
+          "a_reas_trif_sicas": {
+            "valor": 177979.51,
+            "unidad": "$"
+          },
+          "subterr_neas_trif_sicas": {
+            "valor": 336006.69,
+            "unidad": "$"
+          },
+          "valor_final": {
+            "cargo_fijo_dia": 0
+          }
+        }
+      }
+    ]
+  }
+}
