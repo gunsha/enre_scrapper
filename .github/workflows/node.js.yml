@@ -20,7 +20,6 @@ jobs:
     - name: Search Updates
     - run: npm ci
     - run: node tarifas.js
-    - name: Push updates
     - run: |
         git config --global user.name "Gunsha"
         git config --global user.email "gonzaller@gmail.com"
