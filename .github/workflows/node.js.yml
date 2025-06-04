@@ -17,15 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js 22
-      uses: actions/setup-node@v4
-      with:
-        node-version: 22
-        cache: 'npm'
+    - name: Search Updates
     - run: npm ci
     - run: node tarifas.js
     - name: Push updates
-      uses: actions/checkout@v4
     - run: |
         git config --global user.name "Gunsha"
         git config --global user.email "gonzaller@gmail.com"
