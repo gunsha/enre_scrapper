@@ -20,14 +20,14 @@ jobs:
       name: Search Updates
     - run: npm ci
     - run: node tarifas.js
+      name: Push updates
     - run: |
         git config --global user.name "Gunsha"
         git config --global user.email "gonzaller@gmail.com"
         git add .
         if ! git diff --cached --quiet; then
           git commit -m "Actualizando tarifas"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push origin HEAD:main
+          git push
         else
           echo "No changes to commit."
         fi
