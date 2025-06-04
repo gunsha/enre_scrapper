@@ -26,7 +26,8 @@ jobs:
         git add .
         if ! git diff --cached --quiet; then
           git commit -m "Actualizando tarifas"
-          git push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin HEAD:main
         else
           echo "No changes to commit."
         fi
