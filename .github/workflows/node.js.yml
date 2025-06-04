@@ -24,6 +24,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: node tarifas.js
+    - name: Push updates
+      uses: actions/checkout@v4
     - run: |
         git config --global user.name "Gunsha"
         git config --global user.email "gonzaller@gmail.com"
