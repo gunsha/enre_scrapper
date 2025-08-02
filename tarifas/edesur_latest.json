@@ -1,10 +1,10 @@
 {
-  "fecha": "07-2025",
-  "cargo_fijo": 2508.2,
-  "cargo_fijo_final_dia": 97.90070967741934,
-  "piso": 45.308,
-  "piso_final": 54.82268,
+  "fecha": "08-2025",
+  "cargo_fijo": 2558.41,
+  "cargo_fijo_final_dia": 99.86051935483871,
+  "piso": 46.524,
+  "piso_final": 56.29404,
   "piso_limite": 350,
-  "excedente": 104.558,
-  "excedente_final": 126.51518
+  "excedente": 105.461,
+  "excedente_final": 127.60781
 }
